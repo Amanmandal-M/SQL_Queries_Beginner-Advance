@@ -14,7 +14,7 @@
     );
 ```
 
-### Problems : 
+## Problems : 
 
 ### Create a `Customers` table / collection with the following fields: `id` (unique identifier), `name`, `email`, `address`, and `phone_number`.
 
