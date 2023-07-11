@@ -138,7 +138,8 @@ We'll continue with a `Rides` table / collection for this set of problems. The s
 ###  Assuming there's another collection/table `Passengers` with `passenger_id` and `name` fields, write a query to return a list of all rides including the driver's name and passenger's name.
 
 ```js
-    SELECT r.id, r.driver_id, r.passenger_id, d.name, p.name FROM Rides r
+    SELECT r.id, r.driver_id, r.passenger_id, d.name, p.name 
+    FROM Rides r
     JOIN Drivers d ON r.driver_id = d.driver_id
     JOIN Passengers p ON r.passenger_id = p.passenger_id;
 ```
