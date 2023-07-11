@@ -2,7 +2,7 @@
 
 <br>
 
-## In SQL, we're using a `Customers` table. Each row in the table represents one customer. Here is the schema of the `Customers` table:
+ In SQL, we're using a `Customers` table. Each row in the table represents one customer. Here is the schema of the `Customers` table:
 
 ```js
     CREATE TABLE Customers (
