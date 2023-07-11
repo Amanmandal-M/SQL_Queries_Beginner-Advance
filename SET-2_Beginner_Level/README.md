@@ -105,8 +105,8 @@ We will be using a `Restaurants` table / collection for this set of problems. Th
 
 <br>
 
-### Write a query to fetch the top 5 restaurants when ordered by average_rating in descending order.
+### Write a query to delete the restaurant with id 3.
 
 ```js
-    SELECT * FROM Restaurants WHERE delivery_available = FALSE ORDER BY average_rating DESC LIMIT 5;
+   DELETE FROM Restaurants WHERE id = 3;
 ```
