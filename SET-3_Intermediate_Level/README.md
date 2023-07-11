@@ -46,7 +46,7 @@ We'll continue with a `Rides` table / collection for this set of problems. The s
     INSERT INTO Rides (id, driver_id, passenger_id, start_location, end_location, distance, ride_time, fare)
     VALUES (1, 1, 1, 'Delhi', 'Agra', 300, 60, 250.00),
            (2, 2, 2, 'Bokaro','Daltonganj', 200, 40, 300.00),
-           (3, 3, 3, 'Dugda Downtown', 'Jammu Kashmir', 1000, 200, 2000.85),
+           (3, 3, 3, 'Dugda Downtown', 'Jammu Kashmir', 100, 200, 2000.85),
            (4, 4, 4, 'Chandrapura', 'Kanpur', 500, 100, 600.20),
            (5, 5, 5, 'Dhanbad', 'Varanasi', 400, 80, 589.87);
 ```
